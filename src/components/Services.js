@@ -36,15 +36,17 @@ const Services = () => {
         </li>
       </ul>
       <div className="serviceDetail">
-        <FaBeer className="titleIcon" />
-        <h1>Business Strategy</h1>
-        <p>
+        <FaBeer className="detailTitle" />
+        <h2 className="detailHeading">Business Strategy</h2>
+        <p className="detailp">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
-          voluptate, quibusdam sunt iste dolores consequatur Inventore fugit
-          error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto
-          facilis officiis nobis sit quis molestias asperiores rem, blanditiis!
-          Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam
-          natus quaerat doloremque.
+          voluptate, quibusdam sunt iste dolores consequatur
+        </p>
+        <p className="detailp">
+          Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam
+          sequi quod iusto facilis officiis nobis sit quis molestias asperiores
+          rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea,
+          tempore et quam natus quaerat doloremque.
         </p>
         <button>Learn More</button>
       </div>

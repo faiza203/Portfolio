@@ -1,13 +1,14 @@
 .services {
   display: flex;
   flex-direction: row;
-  padding: 0 5rem;
+  padding: 0 8rem;
+  background-color: #f8f9fa;
 }
 
 .titles {
   background-color: #31de79;
   padding-top: 3rem;
-  width: 45rem;
+  width: 55rem;
 }
 
 .titles li {
@@ -22,7 +23,7 @@
 }
 
 .title:after {
-  position: absolute;
+  /* position: absolute; */
     top: 20px;
     bottom: 10px;
     right: 0;
@@ -42,5 +43,32 @@
 .title p {
   font-size: 20px;
   padding-left: 10px;
-  font-weight: bold;
+  font-weight: 400;
+}
+
+.serviceDetail{
+  text-align: left;
+  padding: 5em 5em 0 7em;
+}
+
+.detailTitle{
+  font-size: 100px;
+  color: #9ff669;
+  padding-left: 2rem;
+}
+
+
+.detailHeading{
+   padding: .7em 0 1em 0;
+   text-transform: uppercase;
+   font-stretch: semi-expanded	;
+   font: status-bar;
+   font-size: 30px;
+}
+
+.detailp{
+  color: #999999;
+  font-size: 15px;
+  line-height: 1.8;
+  font-family: sans-serif;
 }

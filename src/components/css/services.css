@@ -24,15 +24,15 @@
 
 .title:after {
   /* position: absolute; */
-    top: 20px;
-    bottom: 10px;
-    right: 0;
-    width: 0;
-    height: 0;
-    content: '';
-    border-style: solid;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent #fafafa transparent transparent;
+  top: 20px;
+  bottom: 10px;
+  right: 0;
+  width: 0;
+  height: 0;
+  content: "";
+  border-style: solid;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #fafafa transparent transparent;
 }
 
 .titleIcon {
@@ -46,29 +46,37 @@
   font-weight: 400;
 }
 
-.serviceDetail{
+.serviceDetail {
   text-align: left;
   padding: 5em 5em 0 7em;
 }
 
-.detailTitle{
+.detailTitle {
   font-size: 100px;
   color: #9ff669;
   padding-left: 2rem;
 }
 
-
-.detailHeading{
-   padding: .7em 0 1em 0;
-   text-transform: uppercase;
-   font-stretch: semi-expanded	;
-   font: status-bar;
-   font-size: 30px;
+.detailHeading {
+  padding: 0.7em 0 1em 0;
+  text-transform: uppercase;
+  font-stretch: semi-expanded;
+  font: status-bar;
+  font-size: 30px;
 }
 
-.detailp{
+.detailp {
   color: #999999;
   font-size: 15px;
   line-height: 1.8;
   font-family: sans-serif;
+}
+
+@media (max-width: 1000px) {
+  .services {
+    padding: 0 3rem;
+  }
+  .serviceDetail{
+    padding-right: 1rem;
+  }
 }

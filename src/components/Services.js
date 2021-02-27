@@ -1,9 +1,10 @@
 import React from "react";
+import "./css/services.css";
 
 const Services = () => {
   return (
-    <div>
-      <ul>
+    <div className="services">
+      <ul className="titles">
         <li>Business Strategy</li>
         <li>Research</li>
         <li>Data Analysis</li>
@@ -12,7 +13,8 @@ const Services = () => {
         <li>Technology</li>
         <li>Creative</li>
       </ul>
-      <div>
+      <div className="serviceDetail">
+        <span class="icon mb-3 d-block flaticon-analysis"></span>
         <h1>Business Strategy</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt

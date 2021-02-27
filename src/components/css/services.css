@@ -1,0 +1,14 @@
+.services {
+  display: flex;
+  flex-direction: row;
+  padding: 0 5rem;
+}
+
+.titles {
+  background-color: #31de79;
+}
+
+.titles li {
+  list-style-type: none;
+  color: rgba(255, 255, 255, 0.8);
+}

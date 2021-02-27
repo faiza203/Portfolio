@@ -1,7 +1,7 @@
 .services {
   display: flex;
   flex-direction: row;
-  padding: 0 8rem;
+  padding: 0 8rem 0 6rem;
   background-color: #f8f9fa;
 }
 
@@ -72,11 +72,22 @@
   font-family: sans-serif;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1050px) {
   .services {
     padding: 0 3rem;
   }
-  .serviceDetail{
+  .serviceDetail {
     padding-right: 1rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .services {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .titles {
+    width: 20rem;
   }
 }

@@ -1,40 +1,23 @@
 import React from "react";
+import "./navbar.css";
 
 const Navbar = () => {
   return (
-    <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="">
-            Faiza
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Link
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+    <div className="navbar">
+      <div className="navbar-brand">
+        Faiza<span>Fiaz</span>
+      </div>
+      <ul className="navbar-links">
+        <li>Home</li>
+        <li>Services</li>
+        <li>Projects</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+      {/* <div>
+          <img src="https://www.flaticon.com/svg/vstatic/svg/545/545705.svg?token=exp=1614396717~hmac=08f7f3dc8b4025fe0204d3d01ceba87c" />
+          <p>Menu</p>
+        </div> */}
     </div>
   );
 };

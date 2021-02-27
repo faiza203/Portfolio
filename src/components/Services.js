@@ -1,20 +1,42 @@
 import React from "react";
+import { FaBeer } from "react-icons/fa";
 import "./css/services.css";
 
 const Services = () => {
   return (
     <div className="services">
       <ul className="titles">
-        <li>Business Strategy</li>
-        <li>Research</li>
-        <li>Data Analysis</li>
-        <li>UI Design</li>
-        <li>UX Design</li>
-        <li>Technology</li>
-        <li>Creative</li>
+        <li className="title">
+          <FaBeer className="titleIcon" />
+          <p>Business Strategy</p>
+        </li>
+        <li className="title">
+          <FaBeer className="titleIcon" />
+          <p>Research</p>
+        </li>
+        <li className="title">
+          <FaBeer className="titleIcon" />
+          <p>Data Analysis</p>
+        </li>
+        <li className="title">
+          <FaBeer className="titleIcon" />
+          <p>UI Design</p>
+        </li>
+        <li className="title">
+          <FaBeer className="titleIcon" />
+          <p>UX Design</p>
+        </li>
+        <li className="title">
+          <FaBeer className="titleIcon" />
+          <p>Technology</p>
+        </li>
+        <li className="title">
+          <FaBeer className="titleIcon" />
+          <p>Creative</p>
+        </li>
       </ul>
       <div className="serviceDetail">
-        <span class="icon mb-3 d-block flaticon-analysis"></span>
+        <FaBeer className="titleIcon" />
         <h1>Business Strategy</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt

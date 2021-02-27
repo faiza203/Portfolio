@@ -6,9 +6,41 @@
 
 .titles {
   background-color: #31de79;
+  padding-top: 3rem;
+  width: 45rem;
 }
 
 .titles li {
   list-style-type: none;
   color: rgba(255, 255, 255, 0.8);
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.title:after {
+  position: absolute;
+    top: 20px;
+    bottom: 10px;
+    right: 0;
+    width: 0;
+    height: 0;
+    content: '';
+    border-style: solid;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #fafafa transparent transparent;
+}
+
+.titleIcon {
+  font-size: 25px;
+  padding-right: 10px;
+}
+
+.title p {
+  font-size: 20px;
+  padding-left: 10px;
+  font-weight: bold;
 }

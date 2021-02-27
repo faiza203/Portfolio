@@ -5,7 +5,7 @@
   left: 0;
   right: 0; */
   z-index: 3;
-  padding: 0.7rem 5rem;
+  padding: 0.7rem 9rem;
 }
 
 .navbar-brand {
@@ -24,7 +24,9 @@
   flex-direction: row;
 }
 
-.navbar-links li{
+.navbar-links li {
   list-style-type: none;
   padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 400;
 }

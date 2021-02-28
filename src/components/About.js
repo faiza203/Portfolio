@@ -4,7 +4,7 @@ import Staff from "./Staff";
 const About = () => {
   return (
     <div>
-      <div>
+      <div className="aboutMe">
         <div className="developerImage"></div>
         <div>
           <h3>About Me</h3>

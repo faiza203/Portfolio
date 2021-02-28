@@ -1,0 +1,8 @@
+.aboutMe{
+    display: flex;
+    flex-direction: row;
+}
+
+.developerImage {
+  background-image: url(../staffImages/developer.jpg);
+}

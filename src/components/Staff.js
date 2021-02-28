@@ -1,4 +1,5 @@
 import React from "react";
+import "./css/staff.css";
 
 const Staff = () => {
   return (
@@ -12,7 +13,10 @@ const Staff = () => {
           <div className="amirImage backgroundImgDiv"></div>
           <p>Amir Sadiq Ali</p>
         </div>
-        <div></div>
+        <div>
+        <div className="talhaImage backgroundImgDiv"></div>
+        <p>Talha Sadiq Ali</p>
+        </div>
         <div></div>
       </div>
     </div>

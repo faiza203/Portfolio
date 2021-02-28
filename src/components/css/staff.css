@@ -1,0 +1,12 @@
+.amirImage {
+  background-image: url("../staffImages/AmirAli.jpg");
+}
+.talhaImage {
+  background-image: url("../staffImages/TalhaAli.png");
+}
+.backgroundImgDiv {
+  height: 13rem;
+  width: 13rem;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}

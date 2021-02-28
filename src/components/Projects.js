@@ -7,7 +7,12 @@ const Projects = () => {
       <div></div>
       <div></div>
       <div></div>
-      <h1>......</h1>
+      <div>
+        <p className="dot"></p>
+        <p className="dot"></p>
+        <p className="dot"></p>
+        <p className="dot"></p>
+      </div>
     </div>
   );
 };

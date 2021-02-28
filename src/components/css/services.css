@@ -8,7 +8,9 @@
 .titles {
   background-color: #31de79;
   padding-top: 3rem;
+  padding-bottom: 16em;
   width: 55rem;
+  margin-bottom: 0;
 }
 
 .titles li {
@@ -70,6 +72,17 @@
   font-size: 15px;
   line-height: 1.8;
   font-family: sans-serif;
+}
+
+.btn-outline-success {
+  border-color: #31de79;
+  color: #31de79;
+}
+
+.btn-outline-success:hover {
+  border-color: #31de79;
+  background: #31de79;
+  color: white;
 }
 
 @media (max-width: 1050px) {

@@ -48,7 +48,7 @@ const Services = () => {
           rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea,
           tempore et quam natus quaerat doloremque.
         </p>
-        <button>Learn More</button>
+        <button className="btn btn-outline-success">Learn More</button>
       </div>
     </div>
   );

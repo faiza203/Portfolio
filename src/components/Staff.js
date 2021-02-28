@@ -8,7 +8,7 @@ const Staff = () => {
       <p>
         Far far away, behind the word mountains, far from the country Pakistan
       </p>
-      <div>
+      <div className="staffDetail">
         <div>
           <div className="amirImage backgroundImgDiv"></div>
           <p>Amir Sadiq Ali</p>

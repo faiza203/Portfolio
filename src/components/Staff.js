@@ -3,21 +3,19 @@ import "./css/staff.css";
 
 const Staff = () => {
   return (
-    <div>
-      <h1>Our Staff</h1>
-      <p>
-        Far far away, behind the word mountains, far from the country Pakistan
-      </p>
+    <div className="staff">
+      <h1 className="h1 text-muted mb-3">Our Staff</h1>
       <div className="staffDetail">
         <div>
           <div className="amirImage backgroundImgDiv"></div>
-          <p>Amir Sadiq Ali</p>
+          <p className="text-muted mt-3">Amir Sadiq Ali</p>
+          <p className=" parrot">BlockChain Developer</p>
         </div>
         <div>
-        <div className="talhaImage backgroundImgDiv"></div>
-        <p>Talha Sadiq Ali</p>
+          <div className="talhaImage backgroundImgDiv"></div>
+          <p className="text-muted mt-3">Talha Sadiq Ali</p>
+          <p className="parrot">Cloud Developer</p>
         </div>
-        <div></div>
       </div>
     </div>
   );

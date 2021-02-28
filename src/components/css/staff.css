@@ -1,3 +1,10 @@
+.staffDetail{
+  justify-content: center;
+}
+
+p{
+  margin-bottom: 0;
+}
 
 .amirImage {
   background-image: url("../staffImages/AmirAli.jpg");

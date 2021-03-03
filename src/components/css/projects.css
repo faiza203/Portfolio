@@ -4,6 +4,10 @@
   background-color: rgb(224, 222, 222);
 }
 
+.projectImages div{
+   background-color: #31de79;
+}
+
 .projectBackgroundImage {
   height: 25rem;
   width: 15rem;

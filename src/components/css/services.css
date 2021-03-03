@@ -71,16 +71,17 @@
   color: #999999;
   font-size: 15px;
   line-height: 1.8;
-  font-family: sans-serif;
+  font-family: monospace;
 }
 
-.btn-outline-success {
-  border-color: #31de79;
-  color: #31de79;
+.learnMore {
+  border:1px solid #31de79 !important;
+  background: linear-gradient(135deg, #9ff669 0%, #31de79 100%);
+  color: white;
+  padding: 15px 20px;
 }
 
-.btn-outline-success:hover {
-  border-color: #31de79;
+.learnMore:hover {
   background: #31de79;
   color: white;
 }

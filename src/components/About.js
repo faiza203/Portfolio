@@ -4,8 +4,8 @@ import "./css/about.css";
 const About = () => {
   return (
     <div className="aboutPage">
-      <div className="aboutMe">
-        <div className="developerImage"></div>
+      <div className="aboutMe d-inline-flex">
+        <div className="developerImage ml-5" ></div>
         <div className="text-muted mt-3 mb-3">
           <h1 className="h1 mt-5">
             HI! My name is

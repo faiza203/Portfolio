@@ -3,11 +3,11 @@ import "./css/navbar.css";
 
 const Navbar = () => {
   return (
-    <div className="navbar">
-      <div className="navbar-brand">
+    <div className="navbar bg-transparent">
+      <div className="navbar-brand text-uppercase">
         Faiza<span>Fiaz</span>
       </div>
-      <ul className="navbar-links">
+      <ul className="navbar-links d-inline-flex list-unstyled">
         <li>Home</li>
         <li>Services</li>
         <li>Projects</li>

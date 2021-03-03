@@ -2,11 +2,6 @@
   background: #e1e1fd;
 }
 
-.aboutMe {
-  display: flex;
-  flex-direction: row;
-}
-
 .developerImage {
   background-image: url("../staffImages/Developer.jpg");
   height: 38em;

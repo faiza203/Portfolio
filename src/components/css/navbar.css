@@ -1,11 +1,9 @@
 .navbar {
-  background: transparent !important;
   z-index: 3;
   padding: 0.7rem 9rem;
 }
 
 .navbar-brand {
-  text-transform: uppercase;
   color: #000;
   font-weight: 700;
   font-size: 24px;
@@ -15,13 +13,7 @@
   color: #31de79;
 }
 
-.navbar-links {
-  display: flex;
-  flex-direction: row;
-}
-
 .navbar-links li {
-  list-style-type: none;
   padding: 1rem 1.5rem 0 1.5rem;
   font-size: 16px;
   font-weight: 400;

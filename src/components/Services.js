@@ -8,7 +8,7 @@ const Services = () => {
       <ul className="titles">
         <li className="title">
           <FaBeer className="titleIcon" />
-          <p>Business Strategy</p>
+          <p>Business  Strategy</p>
         </li>
         <li className="title">
           <FaBeer className="titleIcon" />
@@ -35,7 +35,7 @@ const Services = () => {
           <p>Creative</p>
         </li>
       </ul>
-      <div className="serviceDetail">
+      <div className="serviceDetail mb-5">
         <FaBeer className="detailTitle" />
         <h2 className="detailHeading">Business Strategy</h2>
         <p className="detailp">
@@ -48,7 +48,7 @@ const Services = () => {
           rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea,
           tempore et quam natus quaerat doloremque.
         </p>
-        <button className="btn btn-outline-success">Learn More</button>
+        <button className="btn learnMore rounded-pill mt-3 mb-5 fs-5">Learn More</button>
       </div>
     </div>
   );

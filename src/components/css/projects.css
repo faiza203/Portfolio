@@ -4,29 +4,45 @@
   background-color: rgb(224, 222, 222);
 }
 
-.projectImages div{
-   background-color: #31de79;
+.projectImages div {
+  background-color: rgba(229, 228, 225, 1);
 }
 
 .projectBackgroundImage {
   height: 25rem;
-  width: 15rem;
+  width: 20rem;
   background-repeat: no-repeat;
   margin: 0 2em;
   background-size: contain;
+  box-shadow: 0 0.2rem 3rem rgb(0 0 0 / 20%);
+  border-radius: 30px;
 }
-.chat-app{
-    background-image: url(../projectsImages/Chat_App.png);
+.chat-app {
+  background-image: url(../projectsImages/Chat_App.png);
 }
 
 .todo-app {
   background-image: url(../projectsImages/Todo_App.png);
 }
 
-.weather-app{
-    background-image: url(../projectsImages/Weather-App.png);
+.weather-app {
+  background-image: url(../projectsImages/Weather-App.png);
 }
 
-.weather-app-2{
-    background-image: url(../projectsImages/Weather-App-2.png);
+@media (max-width: 1035px) {
+  .projectBackgroundImage {
+    height: 18rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .projectBackgroundImage {
+    height: 15rem;
+  }
+}
+@media (max-width: 600px) {
+  .projectImages {
+    display: flex;
+    flex-direction: column;
+  }
 }

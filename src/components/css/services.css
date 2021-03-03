@@ -82,8 +82,8 @@
 }
 
 .learnMore:hover {
-  background: #31de79;
-  color: white;
+  background-color: white;
+  color: #31de79;
 }
 
 @media (max-width: 1050px) {

@@ -12,3 +12,12 @@
 .parrot{
   color: #31de79;
 }
+
+
+
+@media (max-width: 950px) {
+  .aboutMe {
+    display: flex;
+    flex-direction: column;
+  }
+}

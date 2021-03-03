@@ -1,25 +1,28 @@
-.dots p{
-    height: 10px;
-    width: 10px;
-    background-color: rgb(224, 222, 222);
+.dots p {
+  height: 10px;
+  width: 10px;
+  background-color: rgb(224, 222, 222);
 }
 
-
-.projectBackgroundImage{
-    
+.projectBackgroundImage {
+  height: 25rem;
+  width: 15rem;
+  background-repeat: no-repeat;
+  margin: 0 2em;
+  background-size: contain;
 }
 .chat-app{
-    background-image: url(./../projectsImages/Chat-App.png);
+    background-image: url(../projectsImages/Chat_App.png);
 }
 
-.todo-app{
-    background-image: url(./../projectsImages/todo-app.png);
+.todo-app {
+  background-image: url(../projectsImages/Todo_App.png);
 }
 
 .weather-app{
-    background-image: url(./../projectsImages/weather-app.png);
+    background-image: url(../projectsImages/Weather-App.png);
 }
 
 .weather-app-2{
-    background-image: url(./../projectsImages/weather-app2.png);
+    background-image: url(../projectsImages/Weather-App-2.png);
 }

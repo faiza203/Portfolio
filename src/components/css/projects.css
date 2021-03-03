@@ -4,6 +4,10 @@
     background-color: rgb(224, 222, 222);
 }
 
+
+.projectBackgroundImage{
+    
+}
 .chat-app{
     background-image: url(./../projectsImages/Chat-App.png);
 }

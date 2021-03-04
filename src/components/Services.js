@@ -4,7 +4,7 @@ import "./css/services.css";
 
 const Services = () => {
   return (
-    <div className="services">
+    <div className="services" id="Services">
       <ul className="titles">
         <li className="title">
           <FaBeer className="titleIcon" />

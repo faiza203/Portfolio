@@ -3,7 +3,7 @@ import "./css/projects.css";
 
 const Projects = () => {
   return (
-    <div>
+    <div id="Projects">
       <h1 className="h1 text-muted mt-5">Our Projects</h1>
       <p>
         Far far away, behind the word mountains, far from the countries Vokalia

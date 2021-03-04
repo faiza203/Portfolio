@@ -8,20 +8,20 @@ const Navbar = () => {
         Faiza<span>Fiaz</span>
       </div>
       <ul className="navbar-links d-inline-flex list-unstyled">
-        <li>
-          <a href="#Home">Home</a>
+        <li className="nav-item">
+          <a  class="nav-link" href="#Home">Home<p className="lineNav"></p></a>
         </li>
         <li>
-          <a href="#Services">Services</a>
+          <a  class="nav-link" href="#Services">Services<p className="lineNav"></p></a>
         </li>
         <li>
-          <a href="#Projects">Projects</a>
+          <a  class="nav-link" href="#Projects">Projects<p className="lineNav"></p></a>
         </li>
         <li>
-          <a href="#About">About</a>
+          <a  class="nav-link" href="#About">About<p className="lineNav"></p></a>
         </li>
         <li>
-          <a href="#Contact">Contact</a>
+          <a  class="nav-link" href="#Contact">Contact<p className="lineNav"></p></a>
         </li>
       </ul>
       {/* <div>

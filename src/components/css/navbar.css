@@ -1,6 +1,14 @@
 .navbar {
   z-index: 3;
-  padding: 0.7rem 9rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 1em;
+}
+
+.navbar.active {
+  background-color: white;
 }
 
 .navbar-brand {
@@ -13,8 +21,35 @@
   color: #31de79;
 }
 
-.navbar-links li {
-  padding: 1rem 1.5rem 0 1.5rem;
+li {
+  padding: 0.5em 3px;
   font-size: 16px;
   font-weight: 400;
+  font-family: system-ui;
+}
+
+a {
+  color: black;
+}
+a:hover {
+  color: #31de79;
+}
+a:hover .lineNav {
+  visibility: visible;
+  transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+}
+
+.lineNav{
+  content: " ";
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #31de79;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -webkit-transform: scaleX(0);
 }

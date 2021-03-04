@@ -1,10 +1,11 @@
 import React  from "react";
+import './css/home.css'
 
 const Home = () => {
   return (
     <div id="Home" className="d-inline-flex">
       <div className="d-inline-flex">
-          <p>Welcome</p>
+          <p className="rotateP">Welcome</p>
         <div>
           <p>Welcome</p>
           <p>Small Details</p>

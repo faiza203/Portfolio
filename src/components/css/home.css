@@ -1,0 +1,6 @@
+.rotateP{
+    writing-mode: vertical-lr;
+    -webkit-writing-mode : rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}

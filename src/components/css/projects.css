@@ -1,11 +1,11 @@
 .dots p {
   height: 10px;
   width: 10px;
-  background-color: rgb(224, 222, 222);
+  background-color: #e0dede;
 }
 
 .projectImages div {
-  background-color: rgba(229, 228, 225, 1);
+  background-color: #e5e4e1;
 }
 
 .projectBackgroundImage {

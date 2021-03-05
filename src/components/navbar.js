@@ -3,25 +3,25 @@ import "./css/navbar.css";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-transparent">
+    <div className="navbar" id="navbar">
       <div className="navbar-brand text-uppercase">
         Faiza<span>Fiaz</span>
       </div>
       <ul className="navbar-links d-inline-flex list-unstyled">
         <li className="nav-item">
-          <a  class="nav-link" href="#Home">Home<p className="lineNav"></p></a>
+          <a  className="nav-link" href="#Home">Home<p className="lineNav"></p></a>
         </li>
         <li>
-          <a  class="nav-link" href="#Services">Services<p className="lineNav"></p></a>
+          <a  className="nav-link" href="#Services">Services<p className="lineNav"></p></a>
         </li>
         <li>
-          <a  class="nav-link" href="#Projects">Projects<p className="lineNav"></p></a>
+          <a  className="nav-link" href="#Projects">Projects<p className="lineNav"></p></a>
         </li>
         <li>
-          <a  class="nav-link" href="#About">About<p className="lineNav"></p></a>
+          <a  className="nav-link" href="#About">About<p className="lineNav"></p></a>
         </li>
         <li>
-          <a  class="nav-link" href="#Contact">Contact<p className="lineNav"></p></a>
+          <a  className="nav-link" href="#Contact">Contact<p className="lineNav"></p></a>
         </li>
       </ul>
       {/* <div>

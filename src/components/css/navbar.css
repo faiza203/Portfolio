@@ -1,15 +1,13 @@
 .navbar {
   z-index: 3;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  margin:  1em 9em;
+  padding: 0 9em;
+  background-color: transparent;
 }
 
-.navbar.active {
-  background-color: white;
-}
 
 .navbar-brand {
   color: #000;
@@ -40,7 +38,7 @@ a:hover .lineNav {
   -webkit-transform: scaleX(1);
 }
 
-.lineNav{
+.lineNav {
   content: " ";
   width: 100%;
   height: 2px;

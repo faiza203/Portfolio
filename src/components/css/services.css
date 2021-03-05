@@ -15,7 +15,7 @@
 
 .titles li {
   list-style-type: none;
-  color: rgba(255, 255, 255, 0.8);
+  color: #ffffffcc;
 }
 
 .title {
@@ -105,3 +105,4 @@
     width: 20rem;
   }
 }
+

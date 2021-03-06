@@ -47,7 +47,7 @@ const Navbar = () => {
           </a>
           <p className="lineNav" id="link-home"></p>
         </li>
-        <li>
+        <li className="nav-item ">
           <a
             className="nav-link"
             href="#Services"
@@ -58,7 +58,7 @@ const Navbar = () => {
           </a>
           <p className="lineNav" id="link-services"></p>
         </li>
-        <li>
+        <li className="nav-item ">
           <a
             className="nav-link"
             href="#Projects"
@@ -69,7 +69,7 @@ const Navbar = () => {
           </a>
           <p className="lineNav" id="link-projects"></p>
         </li>
-        <li>
+        <li className="nav-item ">
           <a
             className="nav-link"
             href="#About"
@@ -80,7 +80,7 @@ const Navbar = () => {
           </a>
           <p className="lineNav" id="link-about"></p>
         </li>
-        <li>
+        <li className="nav-item ">
           <a
             className="nav-link"
             href="#Contact"

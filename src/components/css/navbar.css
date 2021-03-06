@@ -8,7 +8,6 @@
   background-color: transparent;
 }
 
-
 .navbar-brand {
   color: #000;
   font-weight: 700;
@@ -27,15 +26,22 @@ li {
 }
 
 a {
-  color: black;
+  color: black !important;
 }
-a:hover {
-  color: #31de79;
-}
-a:hover .lineNav {
+
+a:hover + .lineNav {
   visibility: visible;
   transform: scaleX(1);
   -webkit-transform: scaleX(1);
+}
+.link-visible {
+  visibility: visible !important;
+  transform: scaleX(1)!important;
+  -webkit-transform: scaleX(1)!important;
+}
+
+.link-visible-a {
+  color: #31de79 !important;
 }
 
 .lineNav {
@@ -50,4 +56,12 @@ a:hover .lineNav {
   transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
   -webkit-transform: scaleX(0);
+}
+
+li{
+  margin: 0 1rem;
+}
+
+.nav-link{
+  padding: 0.5rem 0  0 0;
 }

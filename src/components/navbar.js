@@ -1,6 +1,34 @@
 import React from "react";
 import "./css/navbar.css";
 
+const addColorStyle = (pId, aId) => {
+  const aIDS = [
+    "href-home",
+    "href-services",
+    "href-projects",
+    "href-about",
+    "href-contact",
+  ];
+  const pIDS = [
+    "link-home",
+    "link-services",
+    "link-projects",
+    "link-about",
+    "link-contact",
+  ];
+  document.getElementById(pId).classList.add("link-visible");
+  aIDS.forEach((aID) => {
+    aID !== aId
+      ? document.getElementById(aID).classList.remove("link-visible-a")
+      : document.getElementById(aId).classList.add("link-visible-a");
+  });
+  pIDS.forEach((pID) => {
+    pID !== pId
+      ? document.getElementById(pID).classList.remove("link-visible")
+      : document.getElementById(pId).classList.add("link-visible");
+  });
+};
+
 const Navbar = () => {
   return (
     <div className="navbar" id="navbar">
@@ -8,20 +36,60 @@ const Navbar = () => {
         Faiza<span>Fiaz</span>
       </div>
       <ul className="navbar-links d-inline-flex list-unstyled">
-        <li className="nav-item">
-          <a  className="nav-link" href="#Home">Home<p className="lineNav"></p></a>
+        <li className="nav-item ">
+          <a
+            className="nav-link"
+            href="#Home"
+            id="href-home"
+            onClick={() => addColorStyle("link-home", "href-home")}
+          >
+            Home
+          </a>
+          <p className="lineNav" id="link-home"></p>
         </li>
         <li>
-          <a  className="nav-link" href="#Services">Services<p className="lineNav"></p></a>
+          <a
+            className="nav-link"
+            href="#Services"
+            id="href-services"
+            onClick={() => addColorStyle("link-services", "href-services")}
+          >
+            Services
+          </a>
+          <p className="lineNav" id="link-services"></p>
         </li>
         <li>
-          <a  className="nav-link" href="#Projects">Projects<p className="lineNav"></p></a>
+          <a
+            className="nav-link"
+            href="#Projects"
+            id="href-projects"
+            onClick={() => addColorStyle("link-projects", "href-projects")}
+          >
+            Projects
+          </a>
+          <p className="lineNav" id="link-projects"></p>
         </li>
         <li>
-          <a  className="nav-link" href="#About">About<p className="lineNav"></p></a>
+          <a
+            className="nav-link"
+            href="#About"
+            id="href-about"
+            onClick={() => addColorStyle("link-about", "href-about")}
+          >
+            About
+          </a>
+          <p className="lineNav" id="link-about"></p>
         </li>
         <li>
-          <a  className="nav-link" href="#Contact">Contact<p className="lineNav"></p></a>
+          <a
+            className="nav-link"
+            href="#Contact"
+            id="href-contact"
+            onClick={() => addColorStyle("link-contact", "href-contact")}
+          >
+            Contact
+          </a>
+          <p className="lineNav" id="link-contact"></p>
         </li>
       </ul>
       {/* <div>

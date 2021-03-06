@@ -3,12 +3,19 @@
     -webkit-writing-mode : rotate(180deg);
     transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
-}
-#Home{
-    height: 70vh;
-    padding: 0;    
-}
-.welcome{
-    padding: 1em 0  0 0;
+    font-family: system-ui;
 }
 
+#Home{
+    width: 100vh;
+    height: 25rem;
+    padding: 0 0 0 4rem;    
+}
+
+#information{
+    margin: 8rem 0 0 0;
+}
+
+#information h3 {
+    font-family: system-ui;
+}

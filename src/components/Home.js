@@ -5,10 +5,13 @@ const Home = () => {
   return (
     <div id="Home" className="d-inline-flex">
       <div className="d-inline-flex welcome">
-        <p className="rotateP">Welcome</p>
-        <div>
-          <p>Welcome</p>
+        <h3 className="rotateP text-muted text-uppercase fw-lighter ">
+          Welcome
+        </h3>
+        <div id="information">
+          <h3 className="text-uppercase parrot fw-lighter">Welcome</h3>
           <h1>Small Details</h1>
+          <h2>More Details</h2>
           <button className="btn">Learn More</button>
         </div>
       </div>

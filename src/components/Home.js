@@ -3,19 +3,19 @@ import "./css/home.css";
 
 const Home = () => {
   return (
-    <div id="Home" className="d-inline-flex">
+    <div id="Home">
       <div className="d-inline-flex welcome">
-        <h3 className="rotateP text-muted text-uppercase fw-lighter ">
+        <h4 className="rotateP text-uppercase fw-lighter welcomeH ">
           Welcome
-        </h3>
+        </h4>
         <div id="information">
-          <h3 className="text-uppercase parrot fw-lighter">Welcome</h3>
+          <h4 className="text-uppercase parrot fw-lighter welcomeH pt-1 pb-1">Welcome</h4>
           <h1>Small Details</h1>
           <h2>More Details</h2>
           <button className="btn">Learn More</button>
         </div>
       </div>
-      <img
+      <img className="appImg"
         src="https://i.insider.com/5638c96cbd86ef16008c6c2f?width=1100&format=jpeg&auto=webp"
         alt="img"
       />

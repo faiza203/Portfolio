@@ -26,19 +26,19 @@
   cursor: pointer;
 }
 
-.title:hover{
+.title:hover {
   position: relative;
 }
 
-.visible-after{
+.visible-after {
   position: relative;
 }
-.visible-after  p{
+.visible-after p {
   font-weight: 600 !important;
   color: white !important;
 }
 
-.title:hover  p {
+.title:hover p {
   padding-left: 10px;
   font-weight: 600;
   color: white;
@@ -57,16 +57,16 @@
   border-color: transparent #fafafa transparent transparent;
 }
 
-.titleIcon {
-  font-size: 25px;
-  padding-right: 10px;
+.title span {
+  font-size: 30px;
+  padding-left: 10px;
 }
 
 .title p {
   font-size: 20px;
   padding-left: 10px;
   font-weight: 100;
-color: rgba(255,255,255,.8);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .serviceDetail {
@@ -86,6 +86,11 @@ color: rgba(255,255,255,.8);
   font-stretch: semi-expanded;
   font: status-bar;
   font-size: 30px;
+}
+
+.detailIcon {
+  font-size: 4em;
+  color: #9ff669;
 }
 
 .detailp {

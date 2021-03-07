@@ -1,5 +1,4 @@
 import React from "react";
-import { FaBeer } from "react-icons/fa";
 import "./css/services.css";
 
 const Services = () => {
@@ -13,7 +12,7 @@ const Services = () => {
     "Technology",
     "Creative",
   ];
-  const addTitle =  (title) => {
+  const addTitle = (title) => {
     document.getElementById(title).classList.add("visible-after");
     titleIDS.forEach(function (titleID) {
       if (titleID !== title) {
@@ -33,7 +32,7 @@ const Services = () => {
           id="Business Strategy"
           onClick={() => addTitle("Business Strategy")}
         >
-          <FaBeer className="titleIcon" />
+          <span className="material-icons-outlined">lightbulb</span>
           <p>Business Strategy</p>
         </li>
         <li
@@ -41,7 +40,7 @@ const Services = () => {
           id="Research"
           onClick={() => addTitle("Research")}
         >
-          <FaBeer className="titleIcon" />
+          <span className="material-icons-outlined">science</span>
           <p>Research</p>
         </li>
         <li
@@ -49,7 +48,7 @@ const Services = () => {
           id="Data Analysis"
           onClick={() => addTitle("Data Analysis")}
         >
-          <FaBeer className="titleIcon" />
+          <span className="material-icons-outlined">biotech</span>
           <p>Data Analysis</p>
         </li>
         <li
@@ -57,15 +56,14 @@ const Services = () => {
           id="UI Design"
           onClick={() => addTitle("UI Design")}
         >
-          <FaBeer className="titleIcon" />
-          <p>UI Design</p>
+          <span className="material-icons-outlined">web</span> <p>UI Design</p>
         </li>
         <li
           className="title"
           id="UX Design"
           onClick={() => addTitle("UX Design")}
         >
-          <FaBeer className="titleIcon" />
+          <span className="material-icons-outlined">wysiwyg</span>
           <p>UX Design</p>
         </li>
         <li
@@ -73,7 +71,7 @@ const Services = () => {
           id="Technology"
           onClick={() => addTitle("Technology")}
         >
-          <FaBeer className="titleIcon" />
+          <span className="material-icons-outlined">psychology</span>
           <p>Technology</p>
         </li>
         <li
@@ -81,12 +79,12 @@ const Services = () => {
           id="Creative"
           onClick={() => addTitle("Creative")}
         >
-          <FaBeer className="titleIcon" />
+          <span class="material-icons-outlined">emoji_objects</span>
           <p>Creative</p>
         </li>
       </ul>
       <div className="serviceDetail mb-5">
-        <FaBeer className="detailTitle" />
+        <span className="material-icons-outlined detailIcon">lightbulb</span>
         <h2 className="detailHeading">{Title}</h2>
         <p className="detailp">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt

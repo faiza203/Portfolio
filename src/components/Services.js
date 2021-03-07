@@ -3,6 +3,7 @@ import { FaBeer } from "react-icons/fa";
 import "./css/services.css";
 
 const Services = () => {
+  let Title = "Business Strategy";
   const titleIDS = [
     "Business Strategy",
     "Research",
@@ -12,7 +13,7 @@ const Services = () => {
     "Technology",
     "Creative",
   ];
-  const addTitle = function (title) {
+  const addTitle =  (title) => {
     document.getElementById(title).classList.add("visible-after");
     titleIDS.forEach(function (titleID) {
       if (titleID !== title) {
@@ -21,6 +22,7 @@ const Services = () => {
         document.getElementById(title).classList.add("visible-after");
       }
     });
+    Title = title;
   };
 
   return (
@@ -85,7 +87,7 @@ const Services = () => {
       </ul>
       <div className="serviceDetail mb-5">
         <FaBeer className="detailTitle" />
-        <h2 className="detailHeading">Business Strategy</h2>
+        <h2 className="detailHeading">{Title}</h2>
         <p className="detailp">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
           voluptate, quibusdam sunt iste dolores consequatur

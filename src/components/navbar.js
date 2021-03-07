@@ -36,16 +36,16 @@ const Navbar = () => {
         Faiza<span>Fiaz</span>
       </div>
       <ul className="navbar-links d-inline-flex list-unstyled">
-        <li className="nav-item ">
+        <li className="nav-item">
           <a
-            className="nav-link"
+            className="nav-link link-visible-a"
             href="#Home"
             id="href-home"
             onClick={() => addColorStyle("link-home", "href-home")}
           >
             Home
           </a>
-          <p className="lineNav" id="link-home"></p>
+          <p className="lineNav  link-visible" id="link-home"></p>
         </li>
         <li className="nav-item ">
           <a

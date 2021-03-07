@@ -11,8 +11,6 @@ const Home = () => {
         <div id="information">
           <h4 className="text-uppercase parrot fw-lighter welcomeH pt-1 pb-1">Welcome</h4>
           <h1>Small Details</h1>
-          <h2>More Details</h2>
-          <button className="btn">Learn More</button>
         </div>
       </div>
       <img className="appImg"

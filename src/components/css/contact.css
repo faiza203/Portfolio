@@ -1,0 +1,14 @@
+#contactSite {
+  margin: 0 1em;
+  background: linear-gradient(135deg, #9ff669 0%, #31de79 100%);
+  color: white;
+}
+
+.contactIcon{
+    background-color: #68df6a;
+    height: 100px;
+    width: 100px;
+    font-size: 30px;
+    padding: 35px 0;
+    border-radius: 50%;
+}

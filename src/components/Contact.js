@@ -1,22 +1,23 @@
 import React from "react";
+import "./css/contact.css";
 
 const Contact = () => {
   return (
     <div id="Contact">
-      <div>
+      <div className="d-inline-flex">
         <div id="contactSite">
-          <span class="material-icons">facebook</span>
+          <span className="material-icons contactIcon">facebook</span>
           <h1>FaceBook</h1>
           <p>Faiza</p>
         </div>
         <div id="contactSite">
-          <span class="material-icons">email</span>
+          <span className="material-icons contactIcon">email</span>
           <h1>Email</h1>
           <p>Faiza</p>
         </div>
         <div id="contactSite">
           <svg
-            class="octicon octicon-mark-github v-align-middle"
+            className="octicon octicon-mark-github v-align-middle contactIcon"
             height="32"
             viewBox="0 0 16 16"
             version="1.1"
@@ -32,7 +33,7 @@ const Contact = () => {
           <p>Faiza</p>
         </div>
         <div id="contactSite">
-          <span class="material-icons-outlined">home</span>
+          <span className="material-icons-outlined contactIcon">home</span>
           <h1>ADDRESS</h1>
           <p>Faiza</p>
         </div>

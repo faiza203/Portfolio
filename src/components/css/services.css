@@ -108,7 +108,7 @@
 }
 
 .learnMore:hover {
-  background-color: white;
+  background: white !important;
   color: #31de79;
 }
 

@@ -9,8 +9,9 @@
   background-color: #31de79;
   padding-top: 3rem;
   padding-bottom: 16em;
-  width: 55rem;
+  max-width: 25em;
   margin-bottom: 0;
+  width: 25em;
 }
 
 .titles li {
@@ -33,12 +34,15 @@
 .visible-after {
   position: relative;
 }
+
+.visible-after span,
 .visible-after p {
   font-weight: 600 !important;
   color: white !important;
 }
 
-.title:hover p {
+.title:hover p,
+.title:hover span {
   padding-left: 10px;
   font-weight: 600;
   color: white;
@@ -71,6 +75,7 @@
 
 .serviceDetail {
   text-align: left;
+  max-width: 50em;
   padding: 5em 5em 0 7em;
 }
 
@@ -105,6 +110,7 @@
   background: linear-gradient(135deg, #9ff669 0%, #31de79 100%);
   color: white;
   padding: 15px 20px;
+  font-size: 20px;
 }
 
 .learnMore:hover {

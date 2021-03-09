@@ -103,7 +103,7 @@ const Services = () => {
           rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea,
           tempore et quam natus quaerat doloremque.
         </p>
-        <button className="btn learnMore rounded-pill mt-3 mb-5 fs-5">
+        <button className="btn learnMore rounded-pill mt-3 mb-5">
           Learn More
         </button>
       </div>

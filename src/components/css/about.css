@@ -6,13 +6,19 @@
   background-image: url("../staffImages/Developer.jpg");
   height: 38em;
   width: 39em;
+  background-repeat: no-repeat;
 }
 
 .parrot{
   color: #31de79;
 }
 
-
+.experience{
+  width: 100%;
+  text-align: left;
+  max-width: 20em;
+  line-height: 1.5;
+}
 
 @media (max-width: 950px) {
   .aboutMe {

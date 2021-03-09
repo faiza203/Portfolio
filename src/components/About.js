@@ -6,17 +6,18 @@ const About = () => {
   return (
     <div className="aboutPage" id="About">
       <div className="aboutMe d-inline-flex">
-        <div className="developerImage ml-5"></div>
+        <div className="developerImage ml-5 mt-2"></div>
         <div className="text-muted mt-3 mb-3">
-          <h1 className="h1 mt-5">
-            HI! My name is
-            <span className="parrot"> Faiza Fiaz</span>
-          </h1>
-          <p className="h3 mt-3">
-            I am 12<sup className="parrot">th</sup> years old Developer from{" "}
+          <h3 className="h3 mt-5">
+            I have great experience in
             <br />
-            <span className="parrot">Pakistan </span>
-          </p>
+            <span className="parrot">
+              HTML , CSS , JS , Node JS , Express JS,
+              <br />
+              React , React Native , TypeScript ,
+              <br /> GatsBy , Linux , Docker and Kubernetes
+            </span>
+          </h3>
         </div>
       </div>
       <Staff />

@@ -79,7 +79,7 @@ const Services = () => {
           id="Creative"
           onClick={() => addTitle("Creative")}
         >
-          <span class="material-icons-outlined">emoji_objects</span>
+          <span className="material-icons-outlined">emoji_objects</span>
           <p>Creative</p>
         </li>
       </ul>

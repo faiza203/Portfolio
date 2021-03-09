@@ -10,7 +10,7 @@ const Home = () => {
           <h4 className="text-uppercase parrot fw-lighter welcomeH pt-1">
             Welcome
           </h4>
-          <div className="m-3 detailWelcome">
+          <div className="ms-3  detailWelcome">
             <h1 className="h1 name">
               My Name is
               <span className="parrot fw-bold"> Faiza Fiaz</span>

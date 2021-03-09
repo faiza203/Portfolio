@@ -11,7 +11,8 @@
 #Home {
   display: flex;
   width: 100vw;
-  height: 40rem;
+  height: 100vh;
+  max-height : 40em;
 }
 
 .welcome {
@@ -26,6 +27,7 @@
 #information h4 {
   text-shadow: 1px 1px #9ff669;
   -webkit-text-fill-color: transparent;
+  margin-top: 15vh;
 }
 .welcomeH {
   font-family: inherit;

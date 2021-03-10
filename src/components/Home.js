@@ -28,7 +28,7 @@ const Home = () => {
       </div>
       <img
         className="appImg"
-        src="https://i.insider.com/5638c96cbd86ef16008c6c2f?width=1100&format=jpeg&auto=webp"
+        src="https://c4.wallpaperflare.com/wallpaper/455/346/398/macro-blur-keyboard-laptop-wallpaper-preview.jpg"
         alt="img"
       />
     </div>

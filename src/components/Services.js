@@ -12,13 +12,15 @@ const Services = () => {
     "Technology",
     "Creative",
   ];
-  const addTitle = (title) => {
+  const addTitle = (title, icon) => {
     document.getElementById(title).classList.add("visible-after");
     titleIDS.forEach(function (titleID) {
       if (titleID !== title) {
         document.getElementById(titleID).classList.remove("visible-after");
       } else {
         document.getElementById(title).classList.add("visible-after");
+        document.getElementById("detailIcon").innerText = icon;
+        document.getElementById("detailHeading").innerText = title;
       }
     });
     Title = title;
@@ -30,7 +32,7 @@ const Services = () => {
         <li
           className="title visible-after"
           id="Business Strategy"
-          onClick={() => addTitle("Business Strategy")}
+          onClick={() => addTitle("Business Strategy", "lightbulb")}
         >
           <span className="material-icons-outlined">lightbulb</span>
           <p>Business Strategy</p>
@@ -39,7 +41,7 @@ const Services = () => {
         <li
           className="title"
           id="Research"
-          onClick={() => addTitle("Research")}
+          onClick={() => addTitle("Research", "science")}
         >
           <span className="material-icons-outlined">science</span>
           <p>Research</p>
@@ -48,7 +50,7 @@ const Services = () => {
         <li
           className="title"
           id="Data Analysis"
-          onClick={() => addTitle("Data Analysis")}
+          onClick={() => addTitle("Data Analysis", "biotech")}
         >
           <span className="material-icons-outlined">biotech</span>
           <p>Data Analysis</p>
@@ -57,15 +59,15 @@ const Services = () => {
         <li
           className="title"
           id="UI Design"
-          onClick={() => addTitle("UI Design")}
+          onClick={() => addTitle("UI Design", "web")}
         >
-          <span className="material-icons-outlined">web</span> <p>UI Design</p>{" "}
+          <span className="material-icons-outlined">web</span> <p>UI Design</p>
           <h6 className="arrow"></h6>
         </li>
         <li
           className="title"
           id="UX Design"
-          onClick={() => addTitle("UX Design")}
+          onClick={() => addTitle("UX Design", "wysiwyg")}
         >
           <span className="material-icons-outlined">wysiwyg</span>
           <p>UX Design</p>
@@ -74,7 +76,7 @@ const Services = () => {
         <li
           className="title"
           id="Technology"
-          onClick={() => addTitle("Technology")}
+          onClick={() => addTitle("Technology", "psychology")}
         >
           <span className="material-icons-outlined">psychology</span>
           <p>Technology</p>
@@ -83,7 +85,7 @@ const Services = () => {
         <li
           className="title"
           id="Creative"
-          onClick={() => addTitle("Creative")}
+          onClick={() => addTitle("Creative", "emoji_objects")}
         >
           <span className="material-icons-outlined">emoji_objects</span>
           <p>Creative</p>
@@ -91,8 +93,12 @@ const Services = () => {
         </li>
       </ul>
       <div className="serviceDetail mb-5">
-        <span className="material-icons-outlined detailIcon">lightbulb</span>
-        <h2 className="detailHeading">{Title}</h2>
+        <span className="material-icons-outlined detailIcon" id="detailIcon">
+          lightbulb
+        </span>
+        <h2 className="detailHeading" id="detailHeading">
+          {Title}
+        </h2>
         <p className="detailp">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
           voluptate, quibusdam sunt iste dolores consequatur

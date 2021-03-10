@@ -59,6 +59,10 @@ a:hover + .lineNav {
   opacity: 1;
 }
 
+.nav-link:hover {
+  text-decoration: none;
+}
+
 .link-visible-a {
   color: #31de79 !important;
 }

@@ -38,7 +38,7 @@ const Navbar = () => {
       <ul className="navbar-links d-inline-flex list-unstyled">
         <li className="nav-item">
           <a
-            className="nav-link link-visible-a"
+            className="nav-link link-visible-a mb-1"
             href="#Home"
             id="href-home"
             onClick={() => addColorStyle("link-home", "href-home")}
@@ -49,7 +49,7 @@ const Navbar = () => {
         </li>
         <li className="nav-item ">
           <a
-            className="nav-link"
+            className="nav-link mb-1"
             href="#Services"
             id="href-services"
             onClick={() => addColorStyle("link-services", "href-services")}
@@ -60,7 +60,7 @@ const Navbar = () => {
         </li>
         <li className="nav-item ">
           <a
-            className="nav-link"
+            className="nav-link mb-1"
             href="#Projects"
             id="href-projects"
             onClick={() => addColorStyle("link-projects", "href-projects")}
@@ -71,7 +71,7 @@ const Navbar = () => {
         </li>
         <li className="nav-item ">
           <a
-            className="nav-link"
+            className="nav-link mb-1"
             href="#About"
             id="href-about"
             onClick={() => addColorStyle("link-about", "href-about")}
@@ -82,7 +82,7 @@ const Navbar = () => {
         </li>
         <li className="nav-item ">
           <a
-            className="nav-link"
+            className="nav-link mb-1"
             href="#Contact"
             id="href-contact"
             onClick={() => addColorStyle("link-contact", "href-contact")}

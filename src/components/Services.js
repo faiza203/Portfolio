@@ -1,4 +1,5 @@
 import React from "react";
+import servicesDetail from './ServicesDetail'
 import "./css/services.css";
 
 const Services = () => {
@@ -14,13 +15,15 @@ const Services = () => {
   ];
   const addTitle = (title, icon) => {
     document.getElementById(title).classList.add("visible-after");
-    titleIDS.forEach(function (titleID) {
+    titleIDS.forEach(function (titleID , key) {
       if (titleID !== title) {
         document.getElementById(titleID).classList.remove("visible-after");
       } else {
         document.getElementById(title).classList.add("visible-after");
         document.getElementById("detailIcon").innerText = icon;
         document.getElementById("detailHeading").innerText = title;
+        document.getElementById("detailp1").innerText = servicesDetail[key][0]
+        document.getElementById("detailp2").innerText = servicesDetail[key][1]
       }
     });
     Title = title;
@@ -103,7 +106,7 @@ const Services = () => {
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
           voluptate, quibusdam sunt iste dolores consequatur
         </p>
-        <p className="detailp" id="detailp2">
+        <p className="detailp mt-3" id="detailp2">
           Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam
           sequi quod iusto facilis officiis nobis sit quis molestias asperiores
           rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea,

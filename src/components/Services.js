@@ -99,11 +99,11 @@ const Services = () => {
         <h2 className="detailHeading" id="detailHeading">
           {Title}
         </h2>
-        <p className="detailp">
+        <p className="detailp" id="detailp1">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
           voluptate, quibusdam sunt iste dolores consequatur
         </p>
-        <p className="detailp">
+        <p className="detailp" id="detailp2">
           Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam
           sequi quod iusto facilis officiis nobis sit quis molestias asperiores
           rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea,

@@ -16,21 +16,21 @@ const Contact = () => {
         </div>
         <div id="contactSite" className="ms-4 me-4 rounded">
           <span className="material-icons-outlined contactIcon">phone</span>
-          <h5 className="fw-bold">Contact Number</h5>
+          <h5 className="fw-bold">CONTACT NUMBER</h5>
           <p id="contactData" className="mt-3 mb-3">
             + 0320 54555203
           </p>
         </div>
         <div id="contactSite" className="ms-4 me-4 rounded">
           <span className="material-icons-outlined contactIcon">email</span>
-          <h5 className="fw-bold">Email ADDRESS</h5>
+          <h5 className="fw-bold">EMAIL ADDRESS</h5>
           <p id="contactData" className="mt-3 mb-3">
             fiazfaiza981@gmail.com
           </p>
         </div>
         <div id="contactSite" className="ms-4 me-4 rounded">
           <span className="material-icons-outlined contactIcon">facebook</span>
-          <h5 className="fw-bold">FaceBook ID</h5>
+          <h5 className="fw-bold">FACEBOOK ID</h5>
           <p id="contactData" className="mt-3 mb-3">
             Faiza.Fiaz.315
           </p>

@@ -16,8 +16,12 @@ const Staff = () => {
             <span
               className="material-icons-outlined amir-email"
               onClick={() => {
-                document.getElementById("amirData").innerText =
-                  "amirsadiqalisaifi@gmail.com";
+                document.getElementById("amirData").innerHTML = (
+                  <div>
+                    <h1>amirsadiqalisaifi@gmail.com</h1>
+                    <button className="btn btn-outline-primary">Done</button>
+                  </div>
+                );
               }}
             >
               email

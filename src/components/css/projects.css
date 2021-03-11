@@ -9,8 +9,8 @@
 }
 
 .projectBackgroundImage {
-  height: 25rem;
-  width: 20rem;
+  height: 33rem;
+  width: 26rem;
   background-repeat: no-repeat;
   margin: 0 2em;
   background-size: contain;
@@ -26,7 +26,7 @@
 }
 
 .weather-app {
-  background-image: url(../projectsImages/Weather-App.png);
+  background-image: url(../projectsImages/Weather-App-2.png);
 }
 
 @media (max-width: 1035px) {

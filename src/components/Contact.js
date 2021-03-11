@@ -4,7 +4,7 @@ import "./css/contact.css";
 const Contact = () => {
   return (
     <div id="Contact" className="mt-5">
-      <h2 className="text-uppercase mt-3 fw-normal">Contact Us</h2>
+      <h2 className="text-uppercase mt-3 fw-normal text-muted">Contact Us</h2>
       <div className="d-inline-flex mt-5 mb-5">
         <div id="contactSite" className="ms-4 me-4 rounded">
           <span className="material-icons-outlined contactIcon">home</span>

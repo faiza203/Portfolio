@@ -4,7 +4,7 @@ import "./css/staff.css";
 const Staff = () => {
   return (
     <div className="staff  pb-5">
-      <h1 className="h1 text-muted mb-3  mt-5">Our Staff</h1>
+      <h1 className="h1 text-muted mb-3  mt-5 text-uppercase">Our Staff</h1>
       <div className="staffDetail mt-5 mb-5">
         <div id="backgroundImgDivH">
           <div className="amirImage backgroundImgDiv"></div>

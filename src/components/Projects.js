@@ -1,40 +1,31 @@
 import React from "react";
 import "./css/projects.css";
 
-let imgClass = ["chat-app", "todo-app", "weather-app"];
+let imgClasses = ["chat-app", "todo-app", "weather-app", "weather-app-2"];
 function setImages(imgApp) {
-  if (imgApp === "chat-app") {
-    return (imgClass = ["todo-app", "weather-app", "weather-app-2"]);
-  } else if (imgApp === "todo-app") {
-    return (imgClass = ["chat-app", "weather-app", "weather-app-2"]);
-  } else if (imgApp === "weather-app") {
-    return (imgClass = ["chat-app", "todo-app", "weather-app-2"]);
-  } else if (imgApp === "weather-app-2") {
-    return (imgClass = ["chat-app", "todo-app", "weather-app"]);
-  } else {
-    return (imgClass = ["chat-app", "todo-app", "weather-app-2"]);
-  }
+  imgClasses.forEach(imgClass => {
+    imgClass !== imgApp ? document.getElementById(imgClass).classList.add("projectBackgroundImageActive") : document.getElementById(imgApp).classList.remove("projectBackgroundImageActive")
+    imgClass !== imgApp ? document.getElementById(imgClass).classList.remove("projectBackgroundImage") : document.getElementById(imgApp).classList.add("projectBackgroundImage")
+  })
 }
 
 const Projects = () => {
   return (
     <div id="Projects">
-      <h1 className="h1 text-muted mt-5 mb-5">Our Projects</h1>
+      <h1 className="h1 text-muted mt-5 mb-5 text-uppercase">Our Projects</h1>
       <div
-        className="d-flex projectImages  justify-content-center"
+        className="d-flex projectImages mt-5 justify-content-center mb-5"
         id="projectImages"
-      >
-        {imgClass.map((img, index) => {
-          return (
-            <div key={index} className={` projectBackgroundImage ${img}`}></div>
-          );
-        })}
+      >  <div className="projectBackgroundImageActive chat-app" id="chat-app"><h1>Chat App</h1></div>
+         <div className="projectBackgroundImageActive weather-app" id="weather-app"><h1>Weather App</h1></div>
+         <div className="projectBackgroundImageActive todo-app " id="todo-app"><h1>Todo App</h1></div>
+        <div className=" projectBackgroundImage weather-app-2" id="weather-app-2"><h1>Weather App 2</h1></div>
       </div>
       <div className="dots d-inline-flex justify-content-center mt-5">
-        <p className="me-2" onClick={() => setImages("chat-app")}></p>
-        <p className="me-2" onClick={() => setImages("todo-app")}></p>
-        <p className="me-2" onClick={() => setImages("weather-app-2")}></p>
-        <p className="me-2" onClick={() => setImages("weather-app")}></p>
+         <button className="btn me-2" onClick={() => setImages("todo-app")}></button>
+        <button className="btn me-2" onClick={() => setImages("chat-app")}></button>
+        <button className="btn me-2" onClick={() => setImages("weather-app-2")}></button>
+        <button className="btn me-2" onClick={() => setImages("weather-app")}></button>
       </div>
     </div>
   );

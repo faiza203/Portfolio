@@ -18,7 +18,9 @@
   text-align: left;
   max-width: 20em;
   line-height: 1.5;
-  margin-top: 30vh;
+  margin-top: 20vh;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
 }
 
 @media (max-width: 950px) {

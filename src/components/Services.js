@@ -96,22 +96,16 @@ const Services = () => {
         </li>
       </ul>
       <div className="serviceDetail mb-5">
-        <span className="material-icons-outlined detailIcon" id="detailIcon">
+        <span className="material-icons-outlined detailIcon ms-5" id="detailIcon">
           lightbulb
         </span>
         <h2 className="detailHeading" id="detailHeading">
           {Title}
         </h2>
         <p className="detailp" id="detailp1">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
-          voluptate, quibusdam sunt iste dolores consequatur
-        </p>
+          Our business strategy is to keep Pakistan afloat   </p>
         <p className="detailp mt-3" id="detailp2">
-          Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam
-          sequi quod iusto facilis officiis nobis sit quis molestias asperiores
-          rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea,
-          tempore et quam natus quaerat doloremque.
-        </p>
+          Pakistan is our home and when Pakistan develops we have achieved great success.We are committed to hard work   </p>
         <button className="btn learnMore rounded-pill mt-3 mb-5">
           Learn More
         </button>

@@ -33,7 +33,9 @@ const Navbar = () => {
   return (
     <div className="navbar" id="navbar">
       <div className="navbar-brand text-uppercase">
+        <i className="far fa-snowflake me-2" aria-hidden="true"></i>
         Faiza<span>Fiaz</span>
+        <i className="far fa-snowflake ms-2" aria-hidden="true"></i>
       </div>
       <ul className="navbar-links d-inline-flex list-unstyled">
         <li className="nav-item">

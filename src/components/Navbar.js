@@ -63,17 +63,6 @@ const Navbar = () => {
         <li className="nav-item ">
           <a
             className="nav-link mb-1"
-            href="#Projects"
-            id="href-projects"
-            onClick={() => addColorStyle("link-projects", "href-projects")}
-          >
-            Projects
-          </a>
-          <p className="lineNav" id="link-projects"></p>
-        </li>
-        <li className="nav-item ">
-          <a
-            className="nav-link mb-1"
             href="#About"
             id="href-about"
             onClick={() => addColorStyle("link-about", "href-about")}
@@ -81,6 +70,17 @@ const Navbar = () => {
             About
           </a>
           <p className="lineNav" id="link-about"></p>
+        </li>
+        <li className="nav-item ">
+          <a
+            className="nav-link mb-1"
+            href="#Projects"
+            id="href-projects"
+            onClick={() => addColorStyle("link-projects", "href-projects")}
+          >
+            Projects
+          </a>
+          <p className="lineNav" id="link-projects"></p>
         </li>
         <li className="nav-item ">
           <a

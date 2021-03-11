@@ -28,3 +28,8 @@ p {
   display: flex;
   flex-direction: row;
 }
+
+
+#amirData span{
+  cursor: pointer;
+}

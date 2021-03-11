@@ -10,11 +10,29 @@ const Staff = () => {
           <div className="amirImage backgroundImgDiv"></div>
           <h2 className="text-muted mt-5">Amir Sadiq Ali</h2>
           <h4 className=" parrot">BlockChain Developer</h4>
+          <div id="amirData">
+            <span className="material-icons-outlined">phone</span>
+            <span className="material-icons-outlined me-4 ms-4">facebook</span>
+            <span
+              className="material-icons-outlined amir-email"
+              onClick={() => {
+                document.getElementById("amirData").innerText =
+                  "amirsadiqalisaifi@gmail.com";
+              }}
+            >
+              email
+            </span>
+          </div>
         </div>
         <div id="backgroundImgDivH">
           <div className="talhaImage backgroundImgDiv"></div>
           <h2 className="text-muted mt-5">Talha Sadiq Ali</h2>
           <h4 className="parrot ">Cloud Developer</h4>
+          <div>
+            <span className="material-icons-outlined">phone</span>
+            <span className="material-icons-outlined me-4 ms-4">facebook</span>
+            <span className="material-icons-outlined">email</span>
+          </div>
         </div>
       </div>
     </div>

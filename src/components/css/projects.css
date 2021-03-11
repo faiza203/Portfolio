@@ -9,7 +9,10 @@
 }
 
 .dots button.active {
-  background-color: #31de79;
+  background-color: #31de73;
+}
+.dots button:hover {
+  background-color: #6ff5a7;
 }
 
 .projectImages div {

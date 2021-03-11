@@ -4,17 +4,19 @@
   background-color: #e0dede;
   border-radius: 50%;
   cursor: pointer;
-  padding:  0 !important;
+  padding: 0 !important;
   transition: all 0.3s ease;
 }
 
+.dots button.active {
+  background-color: #31de79;
+}
 
 .projectImages div {
   background-color: #e5e4e1;
- 
 }
 
-.projectImages div h1{
+.projectImages div h1 {
   visibility: hidden;
 }
 
@@ -25,28 +27,27 @@
   margin: 0 2em;
   background-size: contain;
   box-shadow: 0 0.2rem 3rem rgb(0 0 0 / 20%);
-  transition:all 3s ease;
+  transition: all 3s ease;
   transform: scale(1);
   z-index: -1;
 }
 
-.projectBackgroundImageActive:hover{
+.projectBackgroundImageActive:hover {
   cursor: pointer;
-  transition:all 3s ease;
+  transition: all 3s ease;
   transform: scale(1.1) !important;
   z-index: 1;
-  
 }
 
-.projectBackgroundImageActive:hover h1{
-  position:absolute;
+.projectBackgroundImageActive:hover h1 {
+  position: absolute;
   right: 0;
   left: 0;
   bottom: 0;
   visibility: visible;
-  color: #31de79 ;
+  color: #31de79;
 }
-.projectBackgroundImage{
+.projectBackgroundImage {
   height: 0;
   width: 0;
 }

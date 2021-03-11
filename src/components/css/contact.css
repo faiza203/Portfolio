@@ -10,12 +10,7 @@
 
 #contactSite:hover {
   background: linear-gradient(135deg, #31de79 0%, #9ff669 100%);
-  color: white;
-  width: 100%;
-  max-width: 18em;
-  box-shadow: 2px 5px 10px 5px forestgreen;
-  border-top: 3px solid darkgray;
-  border-left: 3px solid darkgray;
+  box-shadow: 4px 10px 20px 10px forestgreen;
 }
 
 .contactIcon {

@@ -1,5 +1,5 @@
 import React from "react";
-import servicesDetail from './ServicesDetail'
+import servicesDetail from "./ServicesDetail";
 import "./css/services.css";
 
 const Services = () => {
@@ -15,15 +15,15 @@ const Services = () => {
   ];
   const addTitle = (title, icon) => {
     document.getElementById(title).classList.add("visible-after");
-    titleIDS.forEach(function (titleID , key) {
+    titleIDS.forEach(function (titleID, key) {
       if (titleID !== title) {
         document.getElementById(titleID).classList.remove("visible-after");
       } else {
         document.getElementById(title).classList.add("visible-after");
         document.getElementById("detailIcon").innerText = icon;
         document.getElementById("detailHeading").innerText = title;
-        document.getElementById("detailp1").innerText = servicesDetail[key][0]
-        document.getElementById("detailp2").innerText = servicesDetail[key][1]
+        document.getElementById("detailp1").innerText = servicesDetail[key][0];
+        document.getElementById("detailp2").innerText = servicesDetail[key][1];
       }
     });
     Title = title;

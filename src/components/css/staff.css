@@ -18,11 +18,11 @@ p {
   background-repeat: no-repeat;
   border-radius: 50%;
   margin: 0 5em;
-  box-shadow: 0px 4px 21px 4px darkcyan;
+  box-shadow: 0px 1px 21px 1px ;
 }
 
 #backgroundImgDivH:hover .backgroundImgDiv {
-  box-shadow: 0px 4px 21px 4px;
+  box-shadow: 0px 4px 21px 8px #49499b;
 }
 
 

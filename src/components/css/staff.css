@@ -18,13 +18,11 @@ p {
   background-repeat: no-repeat;
   border-radius: 50%;
   margin: 0 5em;
-  box-shadow: 0px 1px 21px 1px ;
 }
 
 #backgroundImgDivH:hover .backgroundImgDiv {
-  box-shadow: 0px 4px 21px 8px #49499b;
+  box-shadow: 0px 0px 15px 15px #9b9bd8;
 }
-
 
 .staffDetail {
   display: flex;

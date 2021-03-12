@@ -23,7 +23,7 @@ const Home = () => {
               Developer . I read in 8 class
             </p>
             <a href="https://github.com/faiza203">
-              <button className="btn learnMore pb-2 pl-5 pr-5 mt-5 rounded-pill">
+              <button className="btn learnMore pb-2 pl-5 pr-5 mt-5 rounded-pill mb-5">
                 My GitHub
               </button>
             </a>

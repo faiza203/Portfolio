@@ -41,6 +41,7 @@
   color: white !important;
 }
 
+
 .title:hover p,
 .title:hover span {
   padding-left: 10px;
@@ -48,7 +49,7 @@
   color: white;
 }
 
-.arrow {
+.title::after {
   position: absolute;
   top: 0;
   bottom: 0;

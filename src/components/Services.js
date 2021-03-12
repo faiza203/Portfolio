@@ -39,7 +39,6 @@ const Services = () => {
         >
           <span className="material-icons-outlined">lightbulb</span>
           <p>Business Strategy</p>
-          <h6 className="arrow"></h6>
         </li>
         <li
           className="title"
@@ -48,7 +47,6 @@ const Services = () => {
         >
           <span className="material-icons-outlined">science</span>
           <p>Research</p>
-          <h6 className="arrow"></h6>
         </li>
         <li
           className="title"
@@ -57,7 +55,6 @@ const Services = () => {
         >
           <span className="material-icons-outlined">biotech</span>
           <p>Data Analysis</p>
-          <h6 className="arrow"></h6>
         </li>
         <li
           className="title"
@@ -65,7 +62,6 @@ const Services = () => {
           onClick={() => addTitle("UI Design", "web")}
         >
           <span className="material-icons-outlined">web</span> <p>UI Design</p>
-          <h6 className="arrow"></h6>
         </li>
         <li
           className="title"
@@ -74,7 +70,6 @@ const Services = () => {
         >
           <span className="material-icons-outlined">wysiwyg</span>
           <p>UX Design</p>
-          <h6 className="arrow"></h6>
         </li>
         <li
           className="title"
@@ -83,7 +78,6 @@ const Services = () => {
         >
           <span className="material-icons-outlined">psychology</span>
           <p>Technology</p>
-          <h6 className="arrow"></h6>
         </li>
         <li
           className="title"
@@ -92,7 +86,6 @@ const Services = () => {
         >
           <span className="material-icons-outlined">emoji_objects</span>
           <p>Creative</p>
-          <h6 className="arrow"></h6>
         </li>
       </ul>
       <div className="serviceDetail mb-5">

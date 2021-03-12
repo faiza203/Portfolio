@@ -30,6 +30,6 @@ p {
 }
 
 
-#amirData span{
+#amirData span , #talhaData span{
   cursor: pointer;
 }

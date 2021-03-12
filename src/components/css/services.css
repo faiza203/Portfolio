@@ -119,7 +119,7 @@
   color: #31de79;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1200px) {
   .services {
     padding: 0 3rem;
   }
@@ -135,6 +135,7 @@
   }
 
   .titles {
-    width: 20rem;
+    /* width: 20rem; */
+    padding: 2em 0 15em 5em;
   }
 }

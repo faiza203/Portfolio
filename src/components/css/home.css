@@ -10,7 +10,7 @@
   display: flex;
   width: 100vw;
   height: 100vh;
-  max-height: 50em;
+  max-height: 60em;
   min-height: 40em;
 }
 
@@ -59,21 +59,30 @@
   margin-right: 8em !important ;
 }
 
-@media (max-width: 950px) {
-  #Home {
-    flex-direction: column;
-    max-height: 100%;
-    min-height: 100%;
-  }
+@media (max-width: 1100px) {
   .welcome {
     width: 100vw;
-    height: 100vh;
   }
-  .welcomeH {
-    margin-top: 5em !important;
+  .welcome {
+    position: absolute;
   }
   .appImg {
     width: 100vw;
-    height: 100vh;
+  }
+  .detailWelcome p{
+    color: #31de79 !important;
+    text-shadow: 1px solid black;
+  }
+}
+
+@media (max-width: 550px) {
+  .welcome {
+    width: 100vw;
+  }
+  .welcome {
+    padding: 0;
+  }
+  .detailWelcome {
+    margin-right: 3em !important;
   }
 }

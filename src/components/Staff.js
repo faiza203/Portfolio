@@ -1,25 +1,16 @@
 import React from "react";
 import "./css/staff.css";
 
-let amirDetail = false;
-let talhaDetail = false;
-let amirDetailElement = "";
-
-const DoneBack = ({ id, element }) => {
+const GoBack = ({ id }) => {
   return (
-    <div className="d-inline-flex mt-3">
-      <h1 style={{ color: "deepskyblue" }} className="me-3">
-        {element}
-      </h1>
-      <button
-        className="btn btn-outline-success"
-        onClick={() =>
-          id === "amir" ? (amirDetail = false) : (talhaDetail = false)
-        }
-      >
-        Done
-      </button>
-    </div>
+    <button
+      className="btn btn-outline-primary"
+      onClick={() => {
+        return (id = "amir" ? <div></div> : <div></div>);
+      }}
+    >
+      Done
+    </button>
   );
 };
 
@@ -32,55 +23,33 @@ const Staff = () => {
           <div className="amirImage backgroundImgDiv"></div>
           <h2 className="text-muted mt-5">Amir Sadiq Ali</h2>
           <h4 className=" parrot">BlockChain Developer</h4>
-          {!amirDetail ? (
-            <div id="amirData">
-              <span
-                className="material-icons"
-                onClick={() => {
-                  amirDetailElement = "+923040659006";
-                  return (amirDetail = true);
-                }}
-              >
-                phone
-              </span>
-              <span className="material-icons-outlined me-4 ms-4">
-                facebook
-              </span>
-              <button
-                onClick={() => {
-                  amirDetail = true;
-                  return amirDetailElement = "amirsadiqalisaifi@gmail.com";
-                }}
-              >
-                <span className="material-icons-outlined amir-email">
-                  email
-                </span>
-              </button>
-            </div>
-          ) : (
-            <div>
-              <DoneBack element={amirDetailElement} id="amir" />
-            </div>
-          )}
+          <div id="amirData">
+            <span className="material-icons-outlined">phone</span>
+            <span className="material-icons-outlined me-4 ms-4">facebook</span>
+            <span
+              className="material-icons-outlined amir-email"
+              onClick={() => {
+               return document.getElementById("amirData").innerHTML = (
+                  <div>
+                    <h1>amirsadiqalisaifi@gmail.com</h1>
+                    <GoBack id="amir"/>
+                  </div>
+                );
+              }}
+            >
+              email
+            </span>
+          </div>
         </div>
         <div className="backgroundImgDivH">
           <div className="talhaImage backgroundImgDiv"></div>
           <h2 className="text-muted mt-5">Talha Sadiq Ali</h2>
           <h4 className="parrot ">Cloud Developer</h4>
-          {!talhaDetail ? (
-            <div id="talhaData">
-              <span className="material-icons">phone</span>
-              <span className="material-icons-outlined me-4 ms-4">
-                facebook
-              </span>
-              <span className="material-icons-outlined">email</span>
-            </div>
-          ) : (
-            <div>
-              <p id="detailTalha"></p>
-              <DoneBack />
-            </div>
-          )}
+          <div>
+            <span className="material-icons-outlined">phone</span>
+            <span className="material-icons-outlined me-4 ms-4">facebook</span>
+            <span className="material-icons-outlined">email</span>
+          </div>
         </div>
       </div>
     </div>

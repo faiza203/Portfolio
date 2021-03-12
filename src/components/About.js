@@ -8,7 +8,7 @@ const About = () => {
       <div className="aboutMe d-inline-flex">
         <div className="developerImage ms-5 mt-2"></div>
         <div className="text-muted mb-3">
-          <h4 className="h4 text-muted experience justify-content-center">
+          <h4 className="h4 text-muted experience justify-content-center fs-3 lh-base text-left">
             I have great experience in {" "}
             <span className="parrot">
               HTML , CSS , JS , Node JS , Express JS, React , React Native ,

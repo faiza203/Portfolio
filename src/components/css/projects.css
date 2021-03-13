@@ -1,3 +1,7 @@
+#Projects{
+  min-width: 100vw;
+}
+
 .dots button {
   height: 10px;
   width: 10px;
@@ -70,20 +74,13 @@
   background-image: url(../projectsImages/Weather-App-2.png);
 }
 
-@media (max-width: 1035px) {
-  .projectBackgroundImage {
-    height: 18rem;
-  }
-}
-
 @media (max-width: 900px) {
-  .projectBackgroundImage {
-    height: 15rem;
-  }
-}
-@media (max-width: 600px) {
   .projectImages {
-    display: flex;
     flex-direction: column;
+  }
+  .projectBackgroundImageActive {
+    position: sticky;
+    left: 30%;
+    margin-bottom: 2em;
   }
 }

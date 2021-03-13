@@ -1,5 +1,6 @@
 .aboutPage {
   background: #e1e1fd;
+  min-width: 100vw;
 }
 
 .developerImage {
@@ -26,11 +27,5 @@
   }
   .developerImage{
     background-size: 100vw;
-  }
-}
-@media (max-width: 950px) {
-  .aboutMe {
-    display: flex;
-    flex-direction: column;
   }
 }

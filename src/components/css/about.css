@@ -26,6 +26,6 @@
     flex-direction: column;
   }
   .developerImage{
-    background-size: 100vw;
+    margin-left: 0 !important;
   }
 }

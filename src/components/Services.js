@@ -69,7 +69,7 @@ const Services = () => {
           id="Cloud Computing"
           onClick={() => addTitle("Cloud Computing", "computer")}
         >
-          <span class="material-icons-outlined">computer</span>
+          <span className="material-icons-outlined">computer</span>
 
           <p>Cloud Computing</p>
         </li>

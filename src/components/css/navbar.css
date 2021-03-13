@@ -4,22 +4,19 @@
   top: 0;
   left: 0;
   right: 0;
-  padding: 0 9em;
   background-color: transparent;
-}
-
-.navbar-collapse{
-  display: flex;
-}
-
-.collapse.navbar-collapse{
-  display: none !important;
+  padding: 0 9em;
 }
 
 .navbar-brand {
   color: #000;
   font-weight: 700;
   font-size: 25px;
+}
+
+.navbar-collapse {
+  display: flex;
+  flex-direction: row !important;
 }
 
 .navbar-brand span {
@@ -94,4 +91,25 @@ a:hover + .lineNav {
   }
 }
 
+@media (max-width: 1000px) {
+  .navbar {
+    padding: 0;
+    color: white !important;
+    position: absolute;
+  }
 
+  .collapse.navbar-collapse {
+    display: none !important;
+  }
+  .navbar-link {
+    background-color: white;
+    width: 100vw;
+  }
+  .nav-link {
+    text-align: left;
+    width: 3em;
+  }
+  .lineNav {
+    width: 5em;
+  }
+}

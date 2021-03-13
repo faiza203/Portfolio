@@ -1,19 +1,18 @@
 #contactSite {
-  background: linear-gradient(135deg, #9ff669 0%, #31de79 100%);
+  background-color: aqua;
   color: white;
   max-width: 18em;
-  box-shadow: 2px 5px 10px 5px forestgreen;
-  border-top: 3px solid darkgray;
-  border-left: 3px solid darkgray;
 }
 
 #contactSite:hover {
-  background: linear-gradient(135deg, #31de79 0%, #9ff669 100%);
-  box-shadow: 4px 10px 20px 10px forestgreen;
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
+
 .contactIcon {
-  background-color: #68df6a;
+  background-color: aliceblue;
+  color: aqua;
   height: 100px;
   width: 100px;
   font-size: 30px;

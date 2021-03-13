@@ -9,16 +9,25 @@
   background-repeat: no-repeat;
 }
 
-.parrot{
+.parrot {
   color: #31de79;
 }
 
-.experience{
+.experience {
   max-width: 20em;
   margin-top: 20vh;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
+@media (max-width: 950px) {
+  .aboutMe {
+    display: flex;
+    flex-direction: column;
+  }
+  .developerImage{
+    background-size: 100vw;
+  }
+}
 @media (max-width: 950px) {
   .aboutMe {
     display: flex;

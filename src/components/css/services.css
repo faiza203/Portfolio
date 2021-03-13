@@ -41,7 +41,6 @@
   color: white !important;
 }
 
-
 .title:hover p,
 .title:hover span {
   padding-left: 10px;
@@ -69,7 +68,7 @@
 
 .title p {
   font-size: 20px;
-  padding-left: 10px;
+  padding-left: 20px;
   font-weight: 100;
   color: rgba(255, 255, 255, 0.8);
 }
@@ -124,18 +123,26 @@
     padding: 0 3rem;
   }
   .serviceDetail {
-    padding-right: 1rem;
+    padding-left: 3em;
+    padding-right: 3em;
   }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1030px) {
   .services {
     display: flex;
     flex-direction: column;
+    padding: 0;
   }
 
   .titles {
-    /* width: 20rem; */
+    width: 100vw ;
     padding: 2em 0 15em 5em;
+  }
+}
+@media (max-width: 385px) {
+  .titles {
+    width: 100vw ;
+    padding: 2em 0 0 0;
   }
 }

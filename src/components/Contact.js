@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div id="Contact" className="mt-5">
       <h2 className="text-uppercase mt-3 fw-normal text-muted">Contact Us</h2>
-      <div className="d-inline-flex mt-5 mb-5">
+      {/* <div className="d-inline-flex mt-5 mb-5">
         <div id="contactSite" className="ms-4 me-4 rounded w-100">
           <span className="material-icons-outlined contactIcon rounded-circle">home</span>
           <h5 className="fw-bold">ADDRESS</h5>
@@ -36,9 +36,7 @@ const Contact = () => {
         </div>
       </div>
       <div>
-        <div></div>
-        <div></div>
-      </div>
+      </div> */}
     </div>
   );
 };

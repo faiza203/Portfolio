@@ -24,8 +24,6 @@
 }
 
 #information h4 {
-  text-shadow: 1px 1px #9ff669;
-  -webkit-text-fill-color: transparent;
   margin-top: 15vh;
 }
 .welcomeH {
@@ -61,22 +59,12 @@
 
 @media (max-width: 1100px) {
   .welcome {
-    width: 100vw;
-  }
-  .welcome {
     position: absolute;
   }
   .appImg {
-    width: 100vw;
+   width: 0;
+   height: 0;
   }
-  .detailWelcome p,
-  .detailWelcome h1 {
-    color: black !important;
-  }
-  .detailWelcome h1{
-    text-shadow: 3px 3px red;
-  }
- 
 }
 
 @media (max-width: 550px) {

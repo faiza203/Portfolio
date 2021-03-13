@@ -7,9 +7,9 @@ const Services = () => {
   const titleIDS = [
     "Business Strategy",
     "Research",
-    "Data Analysis",
+    "Data Base",
     "UI Design",
-    "UX Design",
+    "Cloud Computing",
     "Technology",
     "Creative",
   ];
@@ -50,26 +50,28 @@ const Services = () => {
         </li>
         <li
           className="title"
-          id="Data Analysis"
-          onClick={() => addTitle("Data Analysis", "biotech")}
+          id="Data Base"
+          onClick={() => addTitle("Data Base", "biotech")}
         >
           <span className="material-icons-outlined">biotech</span>
-          <p>Data Analysis</p>
+          <p>Data Base</p>
         </li>
         <li
           className="title"
           id="UI Design"
           onClick={() => addTitle("UI Design", "web")}
         >
-          <span className="material-icons-outlined">web</span> <p>UI Design</p>
+          <span className="material-icons-outlined">web</span>
+          <p>UI Design</p>
         </li>
         <li
           className="title"
-          id="UX Design"
-          onClick={() => addTitle("UX Design", "wysiwyg")}
+          id="Cloud Computing"
+          onClick={() => addTitle("Cloud Computing", "computer")}
         >
-          <span className="material-icons-outlined">wysiwyg</span>
-          <p>UX Design</p>
+          <span class="material-icons-outlined">computer</span>
+
+          <p>Cloud Computing</p>
         </li>
         <li
           className="title"
@@ -89,16 +91,22 @@ const Services = () => {
         </li>
       </ul>
       <div className="serviceDetail mb-5">
-        <span className="material-icons-outlined detailIcon ms-5" id="detailIcon">
+        <span
+          className="material-icons-outlined detailIcon ms-5"
+          id="detailIcon"
+        >
           lightbulb
         </span>
         <h2 className="detailHeading" id="detailHeading">
           {Title}
         </h2>
         <p className="detailp" id="detailp1">
-          Our business strategy is to keep Pakistan afloat   </p>
+          Our business strategy is to keep Pakistan afloat{" "}
+        </p>
         <p className="detailp mt-3" id="detailp2">
-          Pakistan is our home and when Pakistan develops we have achieved great success.We are committed to hard work   </p>
+          Pakistan is our home and when Pakistan develops we have achieved great
+          success.We are committed to hard work{" "}
+        </p>
         <button className="btn learnMore rounded-pill mt-3 mb-5">
           Learn More
         </button>

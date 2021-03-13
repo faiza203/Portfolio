@@ -69,10 +69,14 @@
   .appImg {
     width: 100vw;
   }
-  .detailWelcome p{
-    color: #31de79 !important;
-    text-shadow: 1px solid black;
+  .detailWelcome p,
+  .detailWelcome h1 {
+    color: black !important;
   }
+  .detailWelcome h1{
+    text-shadow: 3px 3px red;
+  }
+ 
 }
 
 @media (max-width: 550px) {

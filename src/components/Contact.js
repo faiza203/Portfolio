@@ -60,25 +60,12 @@ const Contact = () => {
   return (
     <div id="Contact" className="mt-5">
       <h2 className="text-uppercase mt-3 fw-normal text-muted">Contact Us</h2>
-      {window.innerWidth > 1000 ? (
-        <div className="d-inline-flex mt-5 mb-5 contactSiteDiv">
-          <Home />
-          <Email />
-          <Phone />
-          <FaceBook />
-        </div>
-      ) : (
-        <div className="mt-5 mb-5 contactSiteDiv">
-          <div className="upperContact d-inline-flex">
-            <Home />
-            <Email />
-          </div>
-          <div className="lowerContact d-inline-flex">
-            <Phone />
-            <FaceBook />
-          </div>
-        </div>
-      )}
+      <div className="d-inline-flex mt-5 mb-5 contactSiteDiv">
+        <Home />
+        <Email />
+        <Phone />
+        <FaceBook />
+      </div>
     </div>
   );
 };

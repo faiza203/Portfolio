@@ -8,6 +8,14 @@
   background-color: transparent;
 }
 
+.navbar-collapse{
+  display: flex;
+}
+
+.collapse.navbar-collapse{
+  display: none !important;
+}
+
 .navbar-brand {
   color: #000;
   font-weight: 700;

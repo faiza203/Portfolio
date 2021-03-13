@@ -3,7 +3,7 @@ import "./css/contact.css";
 
 const Phone = () => {
   return (
-    <div id="contactSite" className="ms-4 me-4 rounded w-100">
+    <div id="contactSite" className="ms-4 me-4 rounded w-100 mb-5">
       <span className="material-icons-outlined contactIcon rounded-circle">
         phone
       </span>
@@ -17,7 +17,7 @@ const Phone = () => {
 
 const Home = () => {
   return (
-    <div id="contactSite" className="ms-4 me-4 rounded w-100">
+    <div id="contactSite" className="ms-4 me-4 rounded w-100  mb-5">
       <span className="material-icons-outlined contactIcon rounded-circle">
         home
       </span>
@@ -31,7 +31,7 @@ const Home = () => {
 
 const Email = () => {
   return (
-    <div id="contactSite" className="ms-4 me-4 rounded w-100">
+    <div id="contactSite" className="ms-4 me-4 rounded w-100  mb-5">
       <span className="material-icons-outlined contactIcon rounded-circle">
         email
       </span>
@@ -45,7 +45,7 @@ const Email = () => {
 
 const FaceBook = () => {
   return (
-    <div id="contactSite" className="ms-4 me-4 rounded w-100">
+    <div id="contactSite" className="ms-4 me-4 rounded w-100  mb-5">
       <span className="material-icons-outlined contactIcon rounded-circle">
         facebook
       </span>

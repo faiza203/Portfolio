@@ -2,6 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import DocumentPage from "./components/App";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+
 import "./App.css";
 
 function App() {
@@ -31,6 +33,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
+      <Footer />
     </div>
   );
 }

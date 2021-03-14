@@ -1,5 +1,5 @@
 #contactSite {
-  background-color: aqua;
+  background-color: springgreen;
   color: white;
   max-width: 18em;
 }
@@ -11,7 +11,7 @@
 
 .contactIcon {
   background-color: aliceblue;
-  color: aqua;
+  color: springgreen;
   height: 100px;
   width: 100px;
   font-size: 30px;
@@ -45,5 +45,6 @@
 @media (max-width: 300px) {
   .contactSite {
     margin:0 !important ;
+    max-width: 16em;
   }
 }

@@ -57,6 +57,10 @@
 }
 
 @media (max-width: 1100px) {
+  #Home{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbBc-DB9oWr7H9msIq6LpRN0b21_y9eKCDag&usqp=CAU");
+    background-repeat: no-repeat;
+  }
   .welcome {
     position: absolute;
   }

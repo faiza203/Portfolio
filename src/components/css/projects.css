@@ -82,10 +82,10 @@
     height: 40rem;
   }
 }
-@media (max-width: 300px) {
+@media (max-width: 340px) {
   .projectBackgroundImageActive {
     margin: .5em  10vw 1em 10vw;
     width: 80vw;
-    height: 28rem;
+    height: 34rem;
   }
 }

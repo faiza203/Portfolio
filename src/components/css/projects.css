@@ -79,5 +79,6 @@
   .projectBackgroundImageActive {
     margin: .5em  10vw 1em 10vw;
     width: 80vw;
+    height: 40rem;
   }
 }

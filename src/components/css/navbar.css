@@ -95,11 +95,12 @@ a:hover + .lineNav {
   .navbar {
     padding: 0;
     background-color: black !important;
-    position: absolute;
   }
   .navbar-toggler{
     background-color: white;
     border-color: #31de79;
+    margin: 0 !important;
+    padding:0 !important;
   }
   .navbar-brand {
     color: white !important;
@@ -120,5 +121,12 @@ a:hover + .lineNav {
   }
   .lineNav {
     width: 5em;
+  }
+}
+
+
+@media(max-width : 400px){
+  .navbar{
+    max-width: 100vw !important;
   }
 }

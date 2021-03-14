@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div id="Home">
       <div className="d-inline-flex welcome">
-        <h4 className="rotateP text-uppercase fw-lighter welcomeH mt-0 ps-3 ">
+        <h4 className="rotateP text-uppercase fw-lighter welcomeH mt-0 ps-2 ">
           Welcome
         </h4>
         <div id="information" className="text-start">

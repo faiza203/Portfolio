@@ -94,20 +94,29 @@ a:hover + .lineNav {
 @media (max-width: 1000px) {
   .navbar {
     padding: 0;
-    color: white !important;
+    background-color: black !important;
     position: absolute;
   }
-
+  .navbar-toggler{
+    background-color: white;
+    border-color: #31de79;
+  }
+  .navbar-brand {
+    color: white !important;
+  }
   .collapse.navbar-collapse {
     display: none !important;
   }
+  .navbar-collapse{
+    margin: 0 !important;
+  }
   .navbar-link {
-    background-color: white;
-    width: 100vw;
+    background-color: black;
   }
   .nav-link {
     text-align: left;
     width: 3em;
+    color: white !important;
   }
   .lineNav {
     width: 5em;

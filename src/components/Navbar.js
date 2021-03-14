@@ -45,14 +45,20 @@ const Navbar = () => {
             const classListNavbar = document.getElementById(
               "navbarSupportedContent"
             ).classList;
-            return classListNavbar[0] === "collapse" ||
+            if (
+              classListNavbar[0] === "collapse" ||
               classListNavbar[1] === "collapse"
-              ? document
-                  .getElementById("navbarSupportedContent")
-                  .classList.remove("collapse")
-              : document
-                  .getElementById("navbarSupportedContent")
-                  .classList.add("collapse");
+            ) {
+              document.getElementById("navbar").style.position = "fixed";
+              document.getElementById("navbar").style.backgroundColor = "black";
+              document
+                .getElementById("navbarSupportedContent")
+                .classList.remove("collapse");
+            } else {
+              document
+                .getElementById("navbarSupportedContent")
+                .classList.add("collapse");
+            }
           }}
         >
           <span className="navbar-toggler-icon"></span>

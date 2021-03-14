@@ -1,3 +1,7 @@
+.contactSiteDiv {
+  flex-wrap: wrap;
+  justify-content: center;
+}
 #contactSite {
   background-color: springgreen;
   color: white;
@@ -31,20 +35,24 @@
 }
 
 @media (max-width: 1150px) {
-  .contactSiteDiv {
-    flex-direction: column !important;
-  }
-  .contactSite {
-    max-width: 20em;
-    width: 20em !important;
-    height: 20em;
+  #contactSite {
+    width: 25em !important;
+    height: 25em;
+    max-width: 27em;
   }
 }
 
-
+@media (max-width: 100px) {
+  .contactSiteDiv {
+    max-width: 90vw;
+  }
+  #contactSite {
+    max-height: 25em;
+  }
+}
 @media (max-width: 300px) {
-  .contactSite {
-    margin:0 !important ;
+  #contactSite {
+    margin: 0 !important ;
     max-width: 16em;
   }
 }

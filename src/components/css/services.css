@@ -11,6 +11,7 @@
   padding-bottom: 16em;
   margin-bottom: 0;
   width: 100%;
+  max-width: 25em;
 }
 
 .titles li {
@@ -127,23 +128,16 @@
   }
 }
 
-@media (min-width: 1200px) {
-  .titles {
-    max-width: 25em;
-    width: 25em;
-  }
-}
-
-@media (max-width: 1030px) {
+@media (max-width: 850px) {
   .services {
     display: flex;
     flex-direction: column;
     padding: 0;
   }
 
-  /* .titles {
-    padding: 2em 0 15em 5em;
-  } */
+  .titles {
+    width: 35em;
+  }
 }
 @media (max-width: 400px) {
   .titles {

@@ -5,7 +5,8 @@
   left: 0;
   right: 0;
   background-color: transparent;
-  padding: 0 9em;
+  padding: 0 0 0 9em;
+  max-width: 100vw;
 }
 
 .navbar-brand {
@@ -96,11 +97,11 @@ a:hover + .lineNav {
     padding: 0;
     background-color: black !important;
   }
-  .navbar-toggler{
+  .navbar-toggler {
     background-color: white;
     border-color: #31de79;
     margin: 0 !important;
-    padding:0 !important;
+    padding: 0 !important;
   }
   .navbar-brand {
     color: white !important;
@@ -108,7 +109,7 @@ a:hover + .lineNav {
   .collapse.navbar-collapse {
     display: none !important;
   }
-  .navbar-collapse{
+  .navbar-collapse {
     margin: 0 !important;
   }
   .navbar-link {
@@ -124,9 +125,8 @@ a:hover + .lineNav {
   }
 }
 
-
-@media(max-width : 400px){
-  .navbar{
+@media (max-width: 400px) {
+  .navbar {
     max-width: 100vw !important;
   }
 }

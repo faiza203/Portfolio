@@ -6,6 +6,8 @@
   background-image: url("../staffImages/Developer.jpg");
   background-repeat: no-repeat;
   background-size: contain;
+  width: 39em;
+  height: 38em;
 }
 
 .parrot {
@@ -18,18 +20,10 @@
   font-family: "Courier New", Courier, monospace;
 }
 
-@media (min-width: 1200px) {
-  .developerImage {
-    width: 39em;
-    height: 38em;
-  }
-}
-
-@media (max-width: 950px) {
-  .aboutMe {
-    display: flex;
-    flex-direction: column;
-  }
+@media (max-width: 750px) {
+ .aboutMe{
+   flex-direction: column;
+ }
 }
 
 @media (max-width: 400px) {

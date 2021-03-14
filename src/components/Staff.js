@@ -6,7 +6,7 @@ const Staff = () => {
     <div className="staff  pb-5">
       <h1 className="h1 text-muted mb-3  mt-5 text-uppercase">Our Staff</h1>
       <div className="staffDetail mt-5 mb-5">
-        <div id="backgroundImgDivH">
+        <div className="backgroundImgDivH">
           <div className="amirImage backgroundImgDiv"></div>
           <h2 className="text-muted mt-5">Amir Sadiq Ali</h2>
           <h4 className=" parrot">BlockChain Developer</h4>

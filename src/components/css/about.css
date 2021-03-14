@@ -1,13 +1,11 @@
 .aboutPage {
   background: #e1e1fd;
-  min-width: 100vw;
 }
 
 .developerImage {
   background-image: url("../staffImages/Developer.jpg");
-  height: 38em;
-  width: 39em;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .parrot {
@@ -20,13 +18,27 @@
   font-family: "Courier New", Courier, monospace;
 }
 
+@media (min-width: 1200px) {
+  .developerImage {
+    width: 39em;
+    height: 38em;
+  }
+}
+
 @media (max-width: 950px) {
   .aboutMe {
     display: flex;
     flex-direction: column;
   }
-  .developerImage{
-    margin-left: 0 !important;
-    max-width: 100vw;
+}
+
+@media (max-width: 400px) {
+  .developerImage {
+    height: 100vh;
+    max-height: 20em;
+  }
+  .experience{
+    margin: 2em 1em;
+    font-size: 20px !important;
   }
 }

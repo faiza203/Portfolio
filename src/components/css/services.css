@@ -9,9 +9,8 @@
   background-color: #31de79;
   padding-top: 3rem;
   padding-bottom: 16em;
-  max-width: 25em;
   margin-bottom: 0;
-  width: 25em;
+  width: 100%;
 }
 
 .titles li {
@@ -128,20 +127,28 @@
   }
 }
 
+@media (min-width: 1200px) {
+  .titles {
+    max-width: 25em;
+    width: 25em;
+  }
+}
+
 @media (max-width: 1030px) {
   .services {
     display: flex;
     flex-direction: column;
     padding: 0;
-    min-width: 100vw ;
- }
-
-  .titles {
-    padding: 2em 0 15em 5em;
   }
+
+  /* .titles {
+    padding: 2em 0 15em 5em;
+  } */
 }
-@media (max-width: 385px) {
+@media (max-width: 400px) {
   .titles {
     padding: 2em 0 0 0;
+    width: 100%;
+    max-width: 100% !important ;
   }
 }

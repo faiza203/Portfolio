@@ -30,9 +30,21 @@
   .developerImage {
     height: 100vh;
     max-height: 20em;
+    margin: 0 !important;
+    width: 100vw !important;
   }
   .experience {
+    width: 100vw;
     margin: 2em 1em;
     font-size: 20px !important;
   }
 }
+
+
+@media (max-width: 350px) {
+  .experience {
+    margin: 0 !important;
+  }
+}
+
+

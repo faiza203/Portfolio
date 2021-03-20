@@ -24,6 +24,10 @@
   color: #31de79;
 }
 
+.navbar-nav li a{
+   padding-bottom: 8px;
+}
+
 a:hover + .lineNav {
   visibility: visible;
   transform: scaleX(1);

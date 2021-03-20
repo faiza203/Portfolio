@@ -28,7 +28,7 @@
   width: 26rem;
   background-repeat: no-repeat;
   margin: 0.5em 2em;
-  background-size: cover;
+  background-size: contain;
   box-shadow: 0 0.2rem 3rem rgb(0 0 0 / 20%);
   transition: all 1s ease;
   transform: scale(1);
